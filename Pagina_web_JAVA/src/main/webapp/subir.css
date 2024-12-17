@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #00BFFF;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px solid dashed black;
+}
+
+
+nav{
+    background: #1E90FF;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    background: #1E90FF;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+#content{
+    float: right;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: gray;
+    padding: 40px;
+}
+
+#container{
+    /*width: 70%*/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Estilos del formularios para crear una nueva publicacion*/
+
+#content-subir {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+input[type="text"], input[type="date"], input[type="file"], textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+br {
+    margin-bottom: 10px;
+}

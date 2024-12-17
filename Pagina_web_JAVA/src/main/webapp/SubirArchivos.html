@@ -1,0 +1,62 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina de Nueva Publicacion</title>
+    <link rel="stylesheet" href="subir.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Pagina de Documentos</h1>      
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="">Nueva Publicacion</a></li>
+                <li><a href="">Editar Publicacion</a></li>
+                <li><a href="">Borrar Publicacion</a></li>
+                <li><a href="index.html">Publicaciones</a></li>
+            </ul>
+        </nav>
+        
+        <section id="content-subir">
+            <header>
+                <h1>Formulario de Publicación</h1>
+            </header>
+        
+            <form id="publication-form" action="Publicacion.jsp" method="post" enctype="multipart/form-data">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required> <br>
+        
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required> <br>
+        
+                <label for="resumen">Resumen:</label>
+                <textarea id="resumen" name="resumen" rows="4" cols="50" required></textarea> <br>
+        
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required> <br>
+        
+                <label for="imagen">Publicar Imagen:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*"> <br>
+        
+                <label for="pdf">Publicar PDF:</label>
+                <input type="file" id="pdf" name="pdf" accept="application/pdf"> <br>
+        
+                <label for="etiquetas">Etiquetas:</label>
+                <input type="text" id="etiquetas" name="etiquetas"> <br>
+        
+                <input type="submit" value="Guardar/Publicar">
+            </form>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <footer>
+            Pagina Hecha con Java 2024
+        </footer>
+
+    </div>
+
+</body>
+</html>
